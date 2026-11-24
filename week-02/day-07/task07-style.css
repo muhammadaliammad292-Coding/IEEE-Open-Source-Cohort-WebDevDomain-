@@ -1,0 +1,314 @@
+ *{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    scrollbar-width: 2px;
+}
+
+body{
+    background-color: rgb(233, 233, 233);
+}
+header{
+    background-image: url('navbar2.gif');
+    background-size: cover;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    /* margin-right: 150px; */
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    border: 1px solid rgb(233, 233, 233);
+    background-color: rgba(87, 107, 188, 0.288);
+    border-radius: 15px;
+    padding: 10px;
+    color: rgb(165, 215, 232);
+    font-weight: bold;
+    margin: 5px;
+}
+
+.navbar a:hover {
+    background-color: rgb(11, 36, 71);
+    color: rgb(233,233,233);
+    border: 1px solid rgb(0, 183, 255);
+    padding: 10px;
+    box-shadow: 0px 6px 2cap rgb(165, 215, 232);
+}
+.logoPnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px 20px;
+    background-image: linear-gradient(to bottom, rgb(87, 108, 188), rgba(0, 0, 0, 0));
+}
+.logo{
+    color: rgb(165, 215, 232);
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.logo h4{
+    text-shadow: 0px 0px 2px rgb(87, 108, 188), 2px 3px 2px rgb(11, 36, 71);
+}
+.logo img{
+    width: 95px;
+    height: 85px;
+    filter: brightness(1.5);
+}
+.header h1{
+            /* color: rgb(111, 255, 255); */
+            text-align: center;
+            color: rgb(165, 215, 232);
+}
+marquee{
+        background-color: rgb(165, 215, 232);
+        color: rgb(11, 36, 71);
+        padding: 5px;
+        margin-top: 0px;
+        text-shadow: 2px 2px 3px rgb(25, 55, 109);
+        padding-bottom: 5.5px;
+}
+.home h2{
+    text-align: center;
+    color: rgb(11, 36, 71);
+    text-shadow: -1px -2px 2px rgb(25, 55, 109), 2px 3px 3px rgb(87, 108, 188);
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 35px;
+}
+p{
+    font-size: 20px;
+    color: rgb(11,36,71);
+    text-align: justify;
+    text-justify: inter-word;
+    font-weight: 300;
+    margin-bottom: 50px;
+    line-height: 2;
+}
+.home img{
+    height: 100%;
+    width: 100%;
+    max-width: 1500px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px rgb(87, 108, 188);
+}
+.about h2{
+    text-align: center;
+    color: rgb(11, 36, 71);
+    text-shadow: -1px -2px 2px rgb(25, 55, 109), 2px 3px 3px rgb(87, 108, 188);
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 35px;
+}
+.events h2{
+   text-align: center;
+    color: rgb(11, 36, 71);
+    text-shadow: -1px -2px 2px rgb(25, 55, 109), 2px 3px 3px rgb(87, 108, 188);
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 35px;
+}
+.event-article{
+    box-shadow: none;
+    background-color: rgba(87, 107, 188, 0.89);
+    color: rgb(165, 215, 232);
+    margin: 10px;
+    padding: 15px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    /* box-shadow: 0px 1px 10px rgb(0, 108, 141); */
+    box-shadow: 0px 3px 8px rgb(87, 108, 188);
+}
+.event-article:hover{
+    box-shadow: 3px 0px 8px rgb(25, 55, 109);
+    background-color: rgb(165, 215, 232);
+    color: rgb(11, 36, 71);
+    margin: 10px;
+    padding: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.event-cards{
+    display: flex;
+    font-style: italic;
+    line-height: 35px;
+}
+.whyjoin h2{
+   text-align: center;
+    color: rgb(11, 36, 71);
+    text-shadow: -1px -2px 2px rgb(25, 55, 109), 2px 3px 3px rgb(87, 108, 188);
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 35px;
+}
+.whyjoin ul{
+    font-size: 20px;
+    color:rgb(11, 36, 71);
+    text-align: justify;
+    text-justify: inter-word;
+    font-weight: 300;
+    margin: 50px 50px 50px;
+    line-height: 2;
+}
+.cohort h2{
+    text-align: center;
+    color: rgb(11, 36, 71);
+    text-shadow: -1px -2px 2px rgb(25, 55, 109), 2px 3px 3px rgb(87, 108, 188);
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 35px;
+}
+.contact h2{
+    text-align: center;
+    color: rgb(165, 215, 232);
+    text-shadow: -1px -2px 2px rgb(25, 55, 109), 2px 3px 3px rgb(87, 108, 188);
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 35px;
+}
+hr {
+  border: none;
+  height: 2px;
+  background-color: rgb(87, 108, 188);
+  width: 100%;
+  box-shadow: 0cap 0cap 3px rgb(11, 36, 71);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.cohort-form{
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    font-weight: 250;
+    border-radius: 15px;
+    box-shadow: -1px 4px 1cap rgb(165, 215, 232);
+    background-image: linear-gradient(to top, rgb(216, 216, 216), rgb(87, 107, 188));
+    margin-bottom: 5%;
+}
+.cohort-form h3{
+    color: rgb(11, 36, 71);
+    text-align: center;
+    margin-bottom: 5px;
+}
+.cohort-form legend{
+    padding: 10px;
+    color: rgb(11, 36, 71);
+    font-weight: bold;
+}
+.cohort-form fieldset{
+    padding: 15px;
+    border: 1px solid rgb(25, 55, 109);
+}
+.selops{
+    background-color: rgb(11, 36, 71);
+    border: 1px solid rgb(25, 55, 109);
+    border-radius: 5px;
+    color: rgb(165, 215, 232);
+}
+.contact li{
+    color: white;
+}
+.contact label{
+    color: white;
+}
+button{
+    justify-content: center;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(11, 36, 71);
+    background-color: rgb(165, 215, 232);
+    border-radius: 10px;
+    border: rgb(87, 108, 188);
+    border-style: ridge;
+    margin-bottom: 8px;
+}
+.form-actions {
+    display: flex;
+    justify-content: center;
+}
+button a{
+    text-decoration: none;
+    color: rgb(11, 36, 71);
+    padding: 10px;
+    
+}
+button a:hover{
+        color: rgb(165, 215, 232);
+}
+
+button:hover{
+        background-color: rgb(11, 36, 71);
+        color: rgb(165, 215, 232);
+        border: rgb(25, 55, 109);
+        box-shadow: 0px 0px 2cap rgb(87, 108, 188);
+        border-style: inset;
+        cursor: pointer;
+}
+    input{
+        background-color: rgb(165, 215, 232);
+        border: solid 0.1px rgb(0, 197, 211);
+        /* border: none; */
+        padding: 4px;
+        margin: 10px;
+        border-radius: 10px;
+        color:rgb(11, 36, 71);
+        font-weight: bold;
+    }
+    input::placeholder{
+        color: rgb(87, 108, 188);
+    }
+
+    textarea{
+            background-color: rgb(87, 108, 188);
+            border:none;
+            border-radius: 10px;
+            padding: 10px;
+            color:rgb(255, 255, 255);
+        }
+    textarea::placeholder{
+        color: white;
+    }
+main{
+    padding: 20px;
+    flex:1;
+}
+.foter{
+    background-color: rgba(0, 0, 0, 0.884);
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.foter p{
+     color: white;
+     font-size: 15px;
+     padding: 20px;
+}
+.foter-sec{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom:20px;
+    
+}
+.foter-sec div{
+    width: 100%;
+    height: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
